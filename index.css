@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.navbar-brand {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem6 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem7 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.btn {
+    font-family: 'Roboto';
+    color: white;
+    border-radius: 20px;
+}
+
+.about-image {
+    background-image: url('https://sipbharat.com/images/BRAND1.png');
+    height: 550px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: auto;
+}
+
+.about-text {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.about-section {
+    background-color: #f2ebef;
+    border-radius: 10px;
+    flex-wrap: 0;
+}
+
+.custom-btn {
+    background-color: #d43ddb;
+    border-radius: 20px;
+    border-width: 0;
+    font-family: 'Roboto';
+    color: white;
+    padding: 7px;
+    width: 60px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+@media (min-width:768px) {
+    .container {
+        display: flex;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+
+@media (max-width:576px) {
+    .container1 {
+        max-width: 540px;
+
+    }
+}
+
+.about-thumb {
+    border-radius: 10px;
+    margin: auto;
+    width: 240px;
+}
+
+@media screen and (max-width:991px) {
+    .about-section {
+        padding: 30px;
+    }
+}
+
+.service-info {
+    background-color: white;
+    border-style: solid;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 8px;
+    border-left-color: #b5b2b1;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    margin-left: auto;
+
+}
+
+.container3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+@media (min-width:768px) {
+    .container3 {
+
+        padding-left: 30px;
+        max-width: 1140px;
+
+    }
+}
+
+
+.card-section {
+    background-color: #f7f7f7;
+    width: 350px;
+    height: 460px;
+    margin-top: 18px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 400px;
+}
+
+
+.card-image-section {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+.card-body {
+    height: 170px;
+    text-align: center;
+    font-family: 'Sans-Serif';
+}
+
+.card-text {
+    font-size: 12px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    background-color: #d43ddb;
+    margin-top: 10px;
+    height: 120px;
+}
+
+.apply {
+    font-family: 'Roboto';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section {
+    width: 100%;
+    background-color: #f0a5de;
+    padding: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.container4 {
+    max-width: 1000px;
+    width: 90%;
+    background: #fff;
+    border-radius: 12px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.contact-heading {
+    color: #ba24c2;
+    margin-left: 30px;
+    font-size: 32px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    position: relative;
+}
+
+@media (max-width:900px) {
+    .content {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:900px) {
+    .image-box {
+        display: none;
+    }
+}
+
+@media (min-width:901px) {
+    .image-box {
+        max-width: 70%;
+    }
+}
+
+.contact-img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.message {
+    font-size: 22px;
+    font-weight: 500;
+    color: #ba24c2;
+}
+
+.input-box {
+    height: 50px;
+    width: 100%;
+    margin: 16px 0;
+    position: relative;
+}
+
+.message-box {
+    min-height: 100px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.message-box {
+    height: 100%;
+    width: 100%;
+    background: #fae9fb;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid transparent;
+
+}
+
+.input {
+    background: #fae9fb;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.send-message {
+    color: #fff;
+    background-color: #ba24c2;
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border-color: #ba24c2;
+    border: 5px solid transparent;
+    width: 100%;
+    letter-spacing: 1px;
+    border-radius: 8px;
+}
+
+.social-button {
+    text-align: center;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 20px;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 20px;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    border-radius: 20px;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 20px;
+}
